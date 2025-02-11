@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saleforce website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="container-one">
+            <img src="computer.svg" alt="">
+            <h2>Build enterprise-quality apps fast
+                to bring your ideas to life</h2>
+            <ul>
+                <li>Build apps fast with drag and drop tools</li>
+                <li>Customize your data model with clicks</li>
+                <li>Go further with Apex code</li>
+                <li>Integrate with anything using powerful APIs</li>
+                <li>Stay protected with enterprise-grade security</li>
+                <li>Customize UI with clicks or any leading-edge web framework</li>
+            </ul>
+
+        </div>
+
+        <div id="container-two">
+            <div class="logo">
+                <img src="logo.svg" alt="saleforcelogo">
+            </div>
+            <h2>Sign up for your Salesforce Developer Edition</h2>
+            <p>A Salesforce Platform environment for free.</p>
+            <p class="highlight">Complete the form to get access to the Salesforce Developer Edition.</p>
+            <form action="">
+                <div id="info">
+                    <div id="fname">
+                        <label for="fname">First Name*</label><br>
+                        <input type="text" name="fname" id="fname" placeholder="First Name">
+                    </div>
+                    <div id="lname">
+                        <label for="lname">Last Name*</label><br>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name">
+                    </div>
+                </div><br>
+                <div class="all-input">
+                    <label for="mail">Email*</label><br>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <div class="all-input">
+                    <label for="role">Role*</label><br>
+                    <select name="role" id="role">
+                        <option disabled selected value="Your job role">Your Job Role</option>
+                        <option value="Developer">Developer</option>
+                        <option value="Architect/CTO">Architect/CTO</option>
+                        <option value="Adiministor">Adiministor</option>
+                        <option value="IT Manager/Executive">IT Manager/Executive</option>
+                        <option value="Business Manager/Executive">Business Manager/Executive</option>
+                    </select>
+                </div>
+                <div class="all-input">
+                    <label for="cname">Company*</label><br>
+                    <input type="text" name="cname" id="cname" placeholder="Company Name">
+                </div>
+                <div class="all-input">
+                    <label for="region">Country/Region</label><br>
+                    <select name="region" id="region">
+                        <option disabled  value="Select Country/Region">Select Country/Region</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Australia">Australia</option>
+                        <option value="China">China</option>
+                        <option value="Hong Kong">Hong Kong</option>
+                        <option value="India">India</option>
+                        <option value="japan">Japan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Russia">Russia</option>
+                        <option value="South Korea">South Korea</option>
+                        <option value="United States">United States</option>
+                    </select>            
+                </div>
+                <div class="all-input">
+                    <label for="pcode">Postal Code*</label><br>
+                    <input type="text" name="pcode" id="pcode" placeholder="Your postal code">
+                </div>
+                <div class="all-input">
+                    <label for="uname">Username*</label><br>
+                    <input type="text" name="uname" id="uname" placeholder="demo@comp.sandbox">
+                </div>
+                <p id="more">Your username must be in the form of an email address (it does not have to be real). It must be unique and cannot be associated with another Salesforce login credential. <a href="#">Read more about username recommendations</a>.</p>
+                <div class="check">
+                    <input type="checkbox" name="cbox" id="cbox">
+                    <label for="cbox">I agree to <a href="#">the Main Services Agreement — Developer Services </a>and <a href="">Salesforce Program Agreement.</a></label>
+                </div>
+                <button>sign me up</button>
+                <p>Already have a Salesforce Developer Environment?</p>
+                <div id="in">
+                    <a href="#">Log in</a>
+                </div>       
+            </form>
+        </div>
+    </div>
+</body>
+</html>
