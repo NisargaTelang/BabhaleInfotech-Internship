@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+
+        header{
+            display: flex;
+            height: 100px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgb(130, 104, 222);
+        }
+
+        header h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: 80px;
+        }
+
+        header li{
+            list-style-type: none;
+            display: inline;
+            margin: 20px;
+        }
+
+        header a{
+            text-decoration: none;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            transition: .2s ease;
+        }
+
+        header a:hover{
+            color: red;
+            font-size: 30px;
+        }
+        header img{
+            height: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="demo.png" alt="demo logo">
+        <h2>Demo</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+</body>
+</html>
